@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This repository contains the backend for a To-Do List application.",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.0",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "drizzle-orm": "^0.44.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "p": "^0.2.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonireAmini1990/ToDo-List-Backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MonireAmini1990/ToDo-List-Backend/issues"
+  },
+  "homepage": "https://github.com/MonireAmini1990/ToDo-List-Backend#readme"
+}
